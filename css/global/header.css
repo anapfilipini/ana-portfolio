@@ -1,0 +1,22 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: relative;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.menu span {
+  background-color: var(--cor-0);
+  width: 40px;
+  height: 2px;
+  border-radius: 4px;
+}

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --font-xxl: 500 100px/1 "Montserrat", sans-serif;
+  --font-xll: 500 80px/1 "Montserrat", sans-serif;
+  --font-xl: 500 64px/1 "Montserrat", sans-serif;
+  --font-ll: 500 52px/1 "Montserrat", sans-serif;
+  --font-l: 500 48px/1 "Montserrat", sans-serif;
+  --font-mm: 500 40px "Montserrat", sans-serif;
+  --font-m: 400 32px "Montserrat", sans-serif;
+  --font-ss: 400 28px "Montserrat", sans-serif;
+  --font-s: 600 24px/1 "Montserrat", sans-serif;
+  --font-xs: 400 18px "Montserrat", sans-serif;
+  --font-xs-m: 500 18px "Montserrat", sans-serif;
+  --font-xxs: 500 16px "Montserrat", sans-serif;
+}
+
+.font-xxl {
+  font: var(--font-xxl);
+}
+
+.font-xll {
+  font: var(--font-xll);
+}
+
+.font-xl {
+  font: var(--font-xl);
+}
+
+.font-ll {
+  font: var(--font-ll);
+}
+
+.font-l {
+  font: var(--font-l);
+}
+
+.font-m {
+  font: var(--font-m);
+}
+
+.font-s {
+  font: var(--font-s);
+}
+
+.font-xs {
+  font: var(--font-xs);
+}
+
+.font-xxs {
+  font: var(--font-xxs);
+}

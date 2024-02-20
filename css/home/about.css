@@ -18,17 +18,24 @@
   padding-left: 80px;
   font: var(--font-m);
   color: var(--cor-3);
+  line-height: 1.3;
+  margin-bottom: 100px;
 }
 
 .about-skills {
-  display: flex;
   gap: 40px;
-  max-width: 1400px;
   overflow-x: hidden;
-  white-space: nowrap;
-  margin-top: 100px;
-  place-content: start;
   justify-items: center;
+}
+
+.skills {
+  white-space: nowrap;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.skills:hover .skills-slide {
+  animation-play-state: paused;
 }
 
 .about-skills span {
@@ -38,14 +45,52 @@
   border-radius: 50px;
 }
 
+.skills-slide {
+  display: inline-flex;
+  animation: 35s slide infinite linear;
+}
+
+.skills-slide:last-child {
+  margin-left: 40px;
+}
+
+.skills::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--cor-0));
+  content: "";
+  z-index: 2;
+}
+
+.skills::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 100%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--cor-0));
+  content: "";
+  z-index: 2;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 @media (max-width: 1120px) {
   .about-content p {
     font: var(--font-ss);
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  .about-skills {
-    margin-top: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 1.3;
   }
 }
 
@@ -54,12 +99,8 @@
     font: var(--font-s);
     font-weight: 400;
     line-height: 1.4;
-    padding-left: 0px;
-    padding-right: 0px;
     margin-top: 40px;
-  }
-  .about-skills {
-    margin-top: 40px;
+    margin-bottom: 80px;
   }
 }
 

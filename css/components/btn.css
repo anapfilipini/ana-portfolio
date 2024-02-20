@@ -2,10 +2,26 @@ button {
   border: none;
 }
 
+a {
+  cursor: none;
+}
+
 .btn {
   background-color: transparent;
   border: 2px solid var(--cor-0);
   border-radius: 50px;
   padding: 12px 20px;
-  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+  cursor: none;
+}
+
+.btn:hover {
+  background-color: var(--cor-p1);
+  color: var(--cor-5);
+  border: 2px solid var(--cor-p1);
+}
+
+.btn:hover a {
+  color: var(--cor-5);
 }

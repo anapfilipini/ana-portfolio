@@ -8,153 +8,183 @@
 
   <link rel="stylesheet" href="./css/syle.css">
 </head>
-<header>
-  <div class="header-bg">
-    <div class="header-container container">
-      <img src="./img/logo.svg" alt="logo">
-      <button class="menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-    <div class="detail-h"></div>
-  </div>
-</header>
-
-<section class="intro">
-  <div class="intro-container container">
-    <h1 class="first-h1">FRONT END <br> DEVELOPER</h1>
-    <div class="sec-h1">
-      <h1>&</h1>
-      <h1>WEB <br> DESIGNER<span class="cor-p1">.</span></h1>
-    </div>
-    <div class="detail-v"></div>
-    <div class="detail-v-2"></div>
-  </div>
-</section>
-
-<section class="about">
-  <div class="about-bg">
-    <div class="about-container container">
-      <h2 class="title cor-5">About</h2>
-      <span class="about-detail"></span>
-      <div class="about-content">
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ornare, accumsan cursus habitasse suspendisse vulputate vivamus nullam. Conubia nullam pharetra potenti semper in lacinia lacus, luctus cursus nisl dis pulvinar arcu, placerat justo condimentum fringilla eget vulputate. </p>
-      </div>
-      <div class="about-skills">
-        <span>Figma</span>
-        <span>Prototyping</span>
-        <span>Wireframing</span>
-        <span>Responsive Design</span>
-        <span>Mobile Design</span>
-        <span>Motion Design</span>
-        <span>HTML/ CSS</span>
-        <span>JavaScript</span>
-        <span>TypeScript</span>
-        <span>React</span>
-        <span>Tailwind</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="projects">
-  <div class="projects-bg">
-    <div class="projects-container container">
-      <h2 class="title cor-0">Projects</h2>
-      <span class="projects-detail"></span>
-
-      <div class="projects-content">
-        <div class="projects-text">
-          <span class="cor-0 font-xs">[01]</span>
-          <p class="cor-2 font-xs">Web Development | Web Design</p>
-          <h1 class="cor-0 font-xxl">BIKCRAFT</h1>
-          <div class="btn-visit">
-            <button class="btn font-xxs"><a href="">VISIT ONLINE</a></button>
-          </div>
-        </div>
-        <div class="projects-img">
-          <div class="img">
-            <img src="./img/bike.jpg" alt="">
-          </div>
-          <div class="projects-tools cor-2 font-xxs">
-            <span>[FIGMA]</span>
-            <span>[HTML]</span>
-            <span>[CSS]</span>
-          </div>
-        </div>
-      </div>
-
-      <span class="projects-detail"></span>
-      <div class="projects-content-sec">
-        <div class="projects-img-sec">
-          <div class="img-sec">
-            <img src="./img/orange.jpg" alt="">
-          </div>
-          <div class="projects-tools-sec cor-2 font-xxs">
-            <span>[FIGMA]</span>
-            <span>[HTML]</span>
-            <span>[CSS]</span>
-            <span>[JAVASCRIPT]</span>
-          </div>
-        </div>
-        <div class="projects-text-sec">
-          <span class="cor-0 font-xs">[02]</span>
-          <p class="cor-2 font-xs">Web Development | Web Design</p>
-          <h1 class="cor-0 font-xxl">SUNNYSIDE</h1>
-          <div class="btn-sec">
-            <button class="btn font-xxs"><a href="">VISIT ONLINE</a></button>
-          </div>
-        </div>
-
-      </div>
-
-      <span class="projects-detail"></span>
-      <div class="projects-content">
-        <div class="projects-text">
-          <span class="cor-0 font-xs">[03]</span>
-          <p class="cor-2 font-xs">App Development</p>
-          <h1 class="cor-0 font-xxl">NLWNOTES</h1>
-          <div class="btn-visit">
-            <button class="btn font-xxs"><a href="">VISIT ON GITHUB</a></button>
-          </div>
-        </div>
-        <div class="projects-img">
-          <div class="img">
-            <img src="./img/nlw.jpg" alt="">
-          </div>
-          <div class="projects-tools cor-2 font-xxs">
-            <span>[REACT]</span>
-            <span>[TAILWIND]</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-</section>
-
-<section class="footer">
-  <div class="footer-bg">
-    <div class="footer-container container">
-      <h2 class="title cor-5">Contact</h2>
-      <span class="about-detail"></span>
-      <div class="footer-links">
-        <h3><a href="">Email</a></h3>
-        <h3><a href="">Dribbble</a></h3>
-        <h3><a href="">Github</a></h3>
-      </div>
-      <span class="about-detail"></span>
-      <div class="footer-rights">
-        <p class="font-xxs cor-3">©2024 ANA | ALL RIGHTS RESERVED</p>
-      </div>
-    </div>
-  </div>
-</section>
 
 <body>
+  <header id="home">
+    <div class="header-bg">
+      <div class="header-container container">
+        <img class="logo" src="./img/logo.svg" alt="logo">
+        <nav class="menu-nav js-menu">
+          <h3 class="hover-this"><a class="hover-animation" href="#home">home</a></h3>
+          <h3 class="hover-this"><a class="hover-animation" href="#about">about</a></h3>
+          <h3 class="hover-this"><a class="hover-animation" href="#projects">projects</a></h3>
+          <h3 class="hover-this"><a class="hover-animation" href="#contact">contact</a></h3>
+          <div class="cursor"></div>
+        </nav>
+        <button class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="detail-h"></div>
+    </div>
+  </header>
 
+  <section class="intro">
+    <div class="intro-container container">
+      <h1 class="first-h1">FRONT END <br> DEVELOPER</h1>
+      <div class="sec-h1">
+        <h1>&</h1>
+        <h1>WEB <br> DESIGNER<span class="cor-p1">.</span></h1>
+      </div>
+      <div class="detail-v"></div>
+      <div class="detail-v-2"></div>
+    </div>
+  </section>
+
+  <section class="about js-scroll" id="about">
+    <div class="about-bg">
+      <div class="about-container ">
+        <h2 class="title cor-5 container">About</h2>
+        <span class="about-detail container"></span>
+        <div class="about-content container">
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ornare, accumsan cursus habitasse suspendisse vulputate vivamus nullam. Conubia nullam pharetra potenti semper in lacinia lacus, luctus cursus nisl dis pulvinar arcu, placerat justo condimentum fringilla eget vulputate. </p>
+        </div>
+        <div class="skills">
+          <div class="about-skills skills-slide">
+            <span>Figma</span>
+            <span>Prototyping</span>
+            <span>Wireframing</span>
+            <span>Responsive Design</span>
+            <span>Mobile Design</span>
+            <span>Motion Design</span>
+            <span>HTML/ CSS</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>React</span>
+            <span>Tailwind</span>
+          </div>
+          <div class="about-skills skills-slide">
+            <span>Figma</span>
+            <span>Prototyping</span>
+            <span>Wireframing</span>
+            <span>Responsive Design</span>
+            <span>Mobile Design</span>
+            <span>Motion Design</span>
+            <span>HTML/ CSS</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>React</span>
+            <span>Tailwind</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects js-scroll" id="projects">
+    <div class="projects-bg">
+      <div class="projects-container container">
+        <h2 class="title cor-0">Projects</h2>
+        <span class="projects-detail"></span>
+
+        <div class="projects-content">
+          <div class="projects-text">
+            <span class="cor-0 font-xs">[01]</span>
+            <p class="cor-2 font-xs">Web Development | Web Design</p>
+            <h1 class="cor-0 font-xxl">BIKCRAFT</h1>
+            <div class="btn-visit">
+              <button class="btn font-xxs"><a href="https://anapfilipini.github.io/bikcraft/">VISIT ONLINE</a></button>
+            </div>
+          </div>
+          <div class="projects-img">
+            <div class="img">
+              <img src="./img/bike.jpg" alt="">
+            </div>
+            <div class="projects-tools cor-2 font-xxs">
+              <span>[FIGMA]</span>
+              <span>[HTML]</span>
+              <span>[CSS]</span>
+            </div>
+          </div>
+        </div>
+
+        <span class="projects-detail"></span>
+        <div class="projects-content-sec">
+          <div class="projects-img-sec">
+            <div class="img-sec">
+              <img src="./img/orange.jpg" alt="">
+            </div>
+            <div class="projects-tools-sec cor-2 font-xxs">
+              <span>[FIGMA]</span>
+              <span>[HTML]</span>
+              <span>[CSS]</span>
+              <span>[JAVASCRIPT]</span>
+            </div>
+          </div>
+          <div class="projects-text-sec">
+            <span class="cor-0 font-xs">[02]</span>
+            <p class="cor-2 font-xs">Web Development | Web Design</p>
+            <h1 class="cor-0 font-xxl">SUNNYSIDE</h1>
+            <div class="btn-sec">
+              <button class="btn font-xxs"><a href="https://anapfilipini.github.io/sunnyside/">VISIT ONLINE</a></button>
+            </div>
+          </div>
+
+        </div>
+
+        <span class="projects-detail"></span>
+        <div class="projects-content">
+          <div class="projects-text">
+            <span class="cor-0 font-xs">[03]</span>
+            <p class="cor-2 font-xs">App Development</p>
+            <h1 class="cor-0 font-xxl">NLWNOTES</h1>
+            <div class="btn-visit">
+              <button class="btn font-xxs"><a href="https://github.com/anapfilipini/nlwnotes">VISIT ON GITHUB</a></button>
+            </div>
+          </div>
+          <div class="projects-img">
+            <div class="img">
+              <img src="./img/nlw.jpg" alt="">
+            </div>
+            <div class="projects-tools cor-2 font-xxs">
+              <span>[REACT]</span>
+              <span>[TAILWIND]</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="footer js-scroll" id="contact">
+    <div class="footer-bg">
+      <div class="footer-container container">
+        <h2 class="title cor-5">Contact</h2>
+        <span class="about-detail"></span>
+        <div class="footer-links">
+          <h3 class="hover-this"><a href="" class="hover-animation">Email</a></h3>
+          <h3 class="hover-this"><a href="https://dribbble.com/analudev" class="hover-animation">Dribbble</a></h3>
+          <h3 class="hover-this"><a href="https://github.com/anapfilipini" class="hover-animation">Github</a></h3>
+          <div class="cursor"></div>
+        </div>
+        <span class="about-detail"></span>
+        <div class="footer-rights">
+          <p class="font-xxs cor-3">©2024 ANA | ALL RIGHTS RESERVED</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./script.js"></script>
+  <script>
+    src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js";
+    integrity =
+      "sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==";
+    crossorigin = "anonymous"; referrerpolicy = "no-referrer";
+  </script>;
 </body>
 
 </html>

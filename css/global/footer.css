@@ -24,6 +24,10 @@
   text-align: center;
 }
 
+.footer-rights p {
+  font-size: 14px;
+}
+
 @media (max-width: 1080px) {
   .footer-links {
     gap: 100px;
@@ -61,5 +65,8 @@
   }
   .footer-links h3 {
     text-align: center;
+  }
+  .footer-links a {
+    cursor: unset;
   }
 }

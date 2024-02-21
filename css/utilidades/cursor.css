@@ -20,3 +20,13 @@ body {
 .hover-this:hover ~ .cursor {
   transform: translate(-50%, -50%) scale(8);
 }
+
+@media (max-width: 600px) {
+  .cursor {
+    display: none;
+    pointer-events: unset;
+  }
+  body {
+    cursor: default;
+  }
+}

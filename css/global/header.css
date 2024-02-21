@@ -92,3 +92,11 @@
     font: var(--font-mm);
   }
 }
+@media (max-width: 600px) {
+  .menu-btn {
+    cursor: unset;
+  }
+  .menu-nav.active a {
+    cursor: unset;
+  }
+}

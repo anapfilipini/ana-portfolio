@@ -147,14 +147,14 @@ figcaption:hover span {
 
 figcaption span {
   opacity: 0;
-  transform: rotate(-45deg) translate3d(0, 20px, 0);
+  transform: rotate(-45deg) translate3d(0, 20px, 0) scale(0.8);
   transition: rotate 0.4s ease-in-out, transform 0.4s ease-in-out,
     opacity 0.4s ease-in-out, scale 0.4s ease-in-out;
 }
 
 .img:hover figcaption span,
 .img-sec:hover figcaption span {
-  transform: rotate(0) translate3d(0, 0, 0);
+  transform: rotate(0) translate3d(0, 0, 0) scale(1);
   opacity: 1;
 }
 
@@ -281,7 +281,11 @@ figcaption img {
   }
 
   .img-bg {
-    justify-content: end;
+    display: none;
+  }
+
+  figcaption span {
+    display: none;
   }
 
   .projects-tools,

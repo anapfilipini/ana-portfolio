@@ -4,8 +4,8 @@
 
 @import url("./utilidades/colors.css");
 @import url("./utilidades/typography.css");
-@import url("./utilidades/cursor.css");
 @import url("./utilidades/hand.css");
+@import url("./utilidades/scroll.css");
 
 @import url("./components/container.css");
 @import url("./components/btn.css");

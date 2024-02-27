@@ -21,7 +21,7 @@
   background-color: transparent;
   flex-direction: column;
   gap: 8px;
-  cursor: none;
+  cursor: pointer;
 }
 
 .menu-btn span {
@@ -29,7 +29,12 @@
   width: 40px;
   height: 2px;
   border-radius: 4px;
-  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
+}
+
+.menu-btn:hover span {
+  background-color: var(--cor-2);
 }
 
 .logo {
@@ -47,7 +52,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 80px;
   opacity: 0;
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
   visibility: hidden;
@@ -64,6 +69,11 @@
   visibility: visible;
   display: inline-block;
   transition: transform 0.1s linear;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu-nav.active a:hover {
+  color: var(--cor-3);
 }
 
 .menu-nav.active {
@@ -90,13 +100,5 @@
   }
   .menu-nav.active a {
     font: var(--font-mm);
-  }
-}
-@media (max-width: 600px) {
-  .menu-btn {
-    cursor: unset;
-  }
-  .menu-nav.active a {
-    cursor: unset;
   }
 }

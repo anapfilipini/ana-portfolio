@@ -2,10 +2,6 @@ button {
   border: none;
 }
 
-a {
-  cursor: none;
-}
-
 .btn {
   background-color: transparent;
   border: 2px solid var(--cor-0);
@@ -13,7 +9,6 @@ a {
   padding: 12px 20px;
   transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out,
     color 0.3s ease-in-out;
-  cursor: none;
 }
 
 .btn:hover {

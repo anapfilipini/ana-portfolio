@@ -14,7 +14,7 @@
 
 .about-content p {
   margin-top: 80px;
-  font: var(--font-ss);
+  font: var(--font-m);
   color: var(--cor-3);
   line-height: 1.4;
   margin-bottom: 40px;
@@ -116,7 +116,7 @@
 
 @media (max-width: 1120px) {
   .about-content p {
-    font: var(--font-s);
+    font: var(--font-ss);
     font-weight: 400;
     line-height: 1.4;
   }
@@ -127,6 +127,9 @@
 
 @media (max-width: 820px) {
   .about-content p {
+    font: var(--font-s);
+    font-weight: 400;
+    line-height: 1.4;
     margin-top: 40px;
   }
   .about-cv {

@@ -138,8 +138,13 @@
   .about-content p {
     font: var(--font-xs);
     line-height: 1.5;
+    margin-left: 0;
+    margin-right: 0;
   }
   .about-skills {
     gap: 20px;
+  }
+  .about-cv a {
+    margin-left: 0;
   }
 }

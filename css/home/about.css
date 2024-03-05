@@ -14,9 +14,10 @@
 
 .about-content p {
   margin-top: 80px;
-  font: var(--font-m);
+  font: var(--font-mm);
   color: var(--cor-3);
-  line-height: 1.4;
+  font-weight: 400;
+  line-height: 1.5;
   margin-bottom: 40px;
   margin-left: 40px;
   margin-right: 40px;
@@ -116,7 +117,7 @@
 
 @media (max-width: 1120px) {
   .about-content p {
-    font: var(--font-ss);
+    font: var(--font-m);
     font-weight: 400;
     line-height: 1.4;
   }

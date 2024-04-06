@@ -14,3 +14,9 @@
 @import url("./home/intro.css");
 @import url("./home/about.css");
 @import url("./home/projects.css");
+
+@import url("./projects/bikcraft/hero.css");
+@import url("./projects/bikcraft/overview.css");
+@import url("./projects/bikcraft/system.css");
+@import url("./projects/bikcraft/mobile.css");
+@import url("./projects/bikcraft/specification.css");

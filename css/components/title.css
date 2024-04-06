@@ -5,6 +5,16 @@
   padding-bottom: 30px;
 }
 
+.detail-h-title {
+  width: 100vw;
+  height: 2px;
+  background-color: var(--cor-4);
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  z-index: -1;
+}
+
 @media (max-width: 930px) {
   .title {
     font: 600 20px "Montserrat", sans-serif;

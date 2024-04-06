@@ -1,0 +1,45 @@
+.mobile-view-content {
+  position: relative;
+}
+
+.mobile-view-content {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 480px;
+}
+
+.mobile-view-content h1 {
+  font: var(--font-xl);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.mobile-view-img {
+  position: absolute;
+  right: 0px;
+  top: -240px;
+}
+
+.mobile-view-title {
+  margin-left: 40px;
+}
+
+.detail-h-mobile {
+  width: 100vw;
+  height: 2px;
+  background-color: var(--cor-4);
+  position: absolute;
+  top: 632px;
+  right: 0px;
+  z-index: -1;
+}
+
+.detail-h2-mobile {
+  width: 100vw;
+  height: 2px;
+  background-color: var(--cor-4);
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}

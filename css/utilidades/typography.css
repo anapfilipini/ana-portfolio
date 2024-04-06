@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,700&display=swap");
 
 :root {
   --font-xxl: 500 100px/1 "Montserrat", sans-serif;
   --font-xll: 500 80px/1 "Montserrat", sans-serif;
-  --font-xl: 500 64px/1 "Montserrat", sans-serif;
+  --font-xl: 400 64px/1 "Montserrat", sans-serif;
   --font-ll: 500 52px/1 "Montserrat", sans-serif;
   --font-l: 500 48px/1 "Montserrat", sans-serif;
-  --font-mm: 500 40px "Montserrat", sans-serif;
+  --font-mm: 400 40px "Montserrat", sans-serif;
   --font-m: 400 32px "Montserrat", sans-serif;
   --font-ss: 400 28px "Montserrat", sans-serif;
-  --font-s: 600 24px/1 "Montserrat", sans-serif;
+  --font-s: 400 24px/1 "Montserrat", sans-serif;
   --font-xs: 400 18px "Montserrat", sans-serif;
   --font-xs-m: 500 18px "Montserrat", sans-serif;
   --font-xxs: 500 16px "Montserrat", sans-serif;
@@ -37,6 +38,10 @@
 
 .font-m {
   font: var(--font-m);
+}
+
+.font-mm {
+  font: var(--font-mm);
 }
 
 .font-s {

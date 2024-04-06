@@ -1,0 +1,33 @@
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 348px;
+  position: relative;
+}
+
+.p-hero {
+  margin-top: 120px;
+}
+
+.p-hero p {
+  line-height: 1.4;
+  margin-bottom: 40px;
+  max-width: 560px;
+}
+
+.detail-h-hero {
+  width: 100vw;
+  height: 2px;
+  background-color: var(--cor-4);
+  position: absolute;
+  top: 760px;
+  right: 0px;
+  z-index: -1;
+}
+
+.img-hero {
+  display: flex;
+  justify-content: end;
+  margin-top: 60px;
+  margin-bottom: 140px;
+}

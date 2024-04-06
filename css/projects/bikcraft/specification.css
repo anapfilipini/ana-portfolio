@@ -1,0 +1,31 @@
+.specification {
+  margin-top: 140px;
+}
+
+.specification h2 {
+  margin-bottom: 100px;
+}
+
+.specification-content-text {
+  display: flex;
+  width: 60vw;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--cor-4);
+  margin-bottom: 20px;
+  font: var(--font-xs);
+}
+
+.specification-content-text p {
+  margin-bottom: 20px;
+}
+
+.specification-content {
+  display: grid;
+  margin-bottom: 140px;
+  justify-items: end;
+}
+
+.thank-you {
+  text-align: end;
+  margin-bottom: 140px;
+}

@@ -26,3 +26,23 @@
   right: calc(33.33vw - 5px);
   z-index: -1;
 }
+
+.detail-h-projects {
+  width: 100vw;
+  height: 2px;
+  background-color: var(--cor-4);
+  position: absolute;
+  top: 82px;
+  right: 0px;
+  z-index: 1;
+}
+
+.detail-h-about {
+  width: 100vw;
+  height: 2px;
+  background-color: var(--cor-1);
+  position: absolute;
+  top: 82px;
+  right: 0px;
+  z-index: 99;
+}

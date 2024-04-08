@@ -1,3 +1,7 @@
+.about {
+  position: relative;
+}
+
 .about-bg {
   background-color: var(--cor-0);
 }

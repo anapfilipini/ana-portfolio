@@ -4,6 +4,10 @@
   content: "";
 }
 
+.projects {
+  position: relative;
+}
+
 .projects-text a {
   color: var(--cor-0);
 }

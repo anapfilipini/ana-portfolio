@@ -15,8 +15,15 @@
 @import url("./home/about.css");
 @import url("./home/projects.css");
 
-@import url("./projects/bikcraft/hero.css");
-@import url("./projects/bikcraft/overview.css");
-@import url("./projects/bikcraft/system.css");
-@import url("./projects/bikcraft/mobile.css");
-@import url("./projects/bikcraft/specification.css");
+@import url("./pages/projects/hero.css");
+@import url("./pages/projects/bikcraft/hero.css");
+@import url("./pages/projects/bikcraft/overview.css");
+@import url("./pages/projects/bikcraft/system.css");
+@import url("./pages/projects/bikcraft/mobile.css");
+@import url("./pages/projects/bikcraft/specification.css");
+
+@import url("./pages/about/hero.css");
+@import url("./pages/about/profile.css");
+@import url("./pages/about/skills.css");
+
+@import url("./pages/contact/contact.css");

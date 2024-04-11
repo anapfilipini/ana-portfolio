@@ -1,0 +1,30 @@
+.contact {
+  margin-top: 440px;
+  margin-bottom: 140px;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 140px;
+  align-items: end;
+}
+
+.contact-text {
+  width: 480px;
+}
+
+.contact-text p {
+  line-height: 2;
+}
+
+.contact-text span::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: var(--cor-4);
+  margin-top: 14px;
+  margin-bottom: 40px;
+}

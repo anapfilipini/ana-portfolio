@@ -7,8 +7,8 @@
   display: flex;
   gap: 140px;
   justify-content: center;
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 180px;
+  padding-bottom: 180px;
   flex-wrap: wrap;
 }
 
@@ -41,6 +41,7 @@
 @media (max-width: 1020px) {
   .footer-links a {
     font: var(--font-l);
+    font-weight: 400;
   }
 }
 
@@ -63,7 +64,7 @@
 @media (max-width: 600px) {
   .footer-links {
     flex-direction: column;
-    gap: 40px;
+    gap: 80px;
     padding-top: 80px;
     padding-bottom: 80px;
   }

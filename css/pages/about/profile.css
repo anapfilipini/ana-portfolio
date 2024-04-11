@@ -1,0 +1,21 @@
+.profile-bg {
+  background-color: var(--cor-0);
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  align-items: end;
+  padding-top: 100px;
+  gap: 40px;
+  padding-bottom: 140px;
+}
+
+.profile p {
+  line-height: 1.5;
+}
+
+.profile-img {
+  display: flex;
+  justify-content: end;
+}

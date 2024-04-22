@@ -34,7 +34,7 @@
 }
 
 .persona-info h3::after {
-  content: url(.../img/freshbite/persona/anna.svg);
+  content: url(..../img/freshbite/persona/anna.svg);
   position: absolute;
   right: -14px;
   top: -80px;

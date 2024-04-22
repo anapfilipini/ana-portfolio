@@ -33,11 +33,10 @@
   margin-bottom: 8px;
 }
 
-.persona-info h3::after {
-  content: url(..../img/freshbite/persona/anna.svg);
+.persona-img {
   position: absolute;
-  right: -14px;
-  top: -80px;
+  right: -20px;
+  top: -40px;
 }
 
 .persona-info-main {

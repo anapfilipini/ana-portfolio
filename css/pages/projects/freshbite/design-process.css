@@ -5,7 +5,6 @@
 
 .design-process {
   margin-bottom: 240px;
-  position: relative;
 }
 
 .design-process-title h3 {
@@ -34,4 +33,17 @@
   display: flex;
   gap: 100px;
   justify-content: center;
+}
+
+.detail-v-design {
+  height: 140px;
+  width: 1px;
+  background-color: var(--cor-3);
+  position: absolute;
+  right: -50px;
+  top: 14px;
+}
+
+.design-process-item {
+  position: relative;
 }

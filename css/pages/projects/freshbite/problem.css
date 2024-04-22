@@ -52,16 +52,14 @@
   line-height: 1.4;
 }
 
-.problem-content h2::after {
-  content: url(..../img/design-process/problem.svg);
+.problem-img {
   position: absolute;
-  right: -34px;
-  top: -30px;
+  right: 20px;
+  top: 20px;
 }
 
-.solution-content h2::after {
-  content: url(..../img/design-process/solution.svg);
+.solution-img {
   position: absolute;
-  right: -34px;
-  top: -30px;
+  right: 20px;
+  top: 20px;
 }

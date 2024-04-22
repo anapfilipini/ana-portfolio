@@ -53,14 +53,14 @@
 }
 
 .problem-content h2::after {
-  content: url(/img/design-process/problem.svg);
+  content: url(../img/design-process/problem.svg);
   position: absolute;
   right: -34px;
   top: -30px;
 }
 
 .solution-content h2::after {
-  content: url(/img/design-process/solution.svg);
+  content: url(../img/design-process/solution.svg);
   position: absolute;
   right: -34px;
   top: -30px;

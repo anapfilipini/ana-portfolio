@@ -1,0 +1,17 @@
+.img-hero-freshbite {
+  display: flex;
+  gap: 80px;
+  margin-top: 60px;
+  margin-bottom: 140px;
+  justify-content: space-between;
+}
+
+.first-img {
+  margin-top: 400px;
+}
+
+.detail-h2-title {
+  width: 100vw;
+  height: 2px;
+  background-color: var(--cor-4);
+}

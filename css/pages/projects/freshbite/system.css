@@ -1,0 +1,46 @@
+.system-color-fresh .system-color-g1 span {
+  background-color: #ffffff;
+  display: inline-block;
+  width: 100%;
+  height: calc(100% - 12px);
+  border-radius: 14px;
+}
+
+.system-color-fresh .system-color-g2 span {
+  background-color: #bfc5b6;
+  margin-bottom: 20px;
+}
+
+.system-color-fresh .system-color-g3 span {
+  background-color: #5d5f5a;
+  margin-bottom: 20px;
+}
+
+.system-color-fresh .system-color-g4 span {
+  background-color: #121312;
+  margin-bottom: 20px;
+}
+
+.system-color-fresh .system-color-p1 span {
+  background-color: #2abb71;
+}
+
+.system-color-fresh .system-color-p2 span {
+  background-color: #1f3d2d;
+}
+
+.system-color-fresh .system-color-p3 span {
+  background-color: #052106;
+}
+
+.system-fresh .system-typo-intro h1 {
+  font-family: "Manrope", sans-serif;
+}
+
+.system-fresh .system-font-regular p {
+  font-family: "Manrope", sans-serif;
+}
+
+.system-fresh .system-font-bold p {
+  font-family: "Manrope", sans-serif;
+}

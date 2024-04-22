@@ -22,6 +22,13 @@
 @import url("./pages/projects/bikcraft/mobile.css");
 @import url("./pages/projects/bikcraft/specification.css");
 
+@import url("./pages/projects/freshbite/hero.css");
+@import url("./pages/projects/freshbite/design-process.css");
+@import url("./pages/projects/freshbite/problem.css");
+@import url("./pages/projects/freshbite/persona.css");
+@import url("./pages/projects/freshbite/system.css");
+@import url("./pages/projects/freshbite/final-screens.css");
+
 @import url("./pages/about/hero.css");
 @import url("./pages/about/profile.css");
 @import url("./pages/about/skills.css");

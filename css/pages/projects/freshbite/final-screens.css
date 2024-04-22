@@ -1,0 +1,65 @@
+.final-screens-detail-bg {
+  background-color: var(--cor-0);
+}
+
+.final-screens-container {
+  display: flex;
+  position: relative;
+  justify-content: end;
+  margin-bottom: 1200px;
+}
+
+.final-screens-container h1 {
+  font: var(--font-xl);
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 80px;
+}
+
+.final-screens-phone-1 {
+  position: absolute;
+  top: -120px;
+  left: 0px;
+}
+
+.final-screens-phone-2 {
+  position: absolute;
+  top: 280px;
+  right: 0px;
+}
+
+.final-screens-detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.final-screens-detail-content {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 240px;
+  padding-bottom: 240px;
+}
+
+.final-screens-detail-text {
+  background-color: #e7e4d6;
+  padding: 40px;
+  border-radius: 24px;
+}
+
+.intuitive-phone .final-screens-phone-2 {
+  position: absolute;
+  top: 360px;
+  right: 0px;
+}
+
+.intuitive-phone .final-screens-phone-3 {
+  position: absolute;
+  top: 1100px;
+  left: 0px;
+}
+
+.intuitive-phone .final-screens-container {
+  margin-bottom: 1840px;
+}

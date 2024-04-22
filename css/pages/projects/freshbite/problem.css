@@ -1,0 +1,67 @@
+.problem-bg {
+  background-color: var(--cor-0);
+}
+
+.problem-content {
+  background-color: #e7e4d6;
+  padding: 40px;
+  border-radius: 24px;
+  margin-left: 80px;
+  height: fit-content;
+  position: relative;
+}
+
+.problem-container {
+  padding-top: 180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding-bottom: 180px;
+}
+
+.problem-content h2 {
+  margin-bottom: 40px;
+}
+
+.problem-content-itens > p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.solution-content {
+  background-color: #1f3d2d;
+  padding: 40px;
+  border-radius: 24px;
+  margin-right: 80px;
+  margin-top: 240px;
+  position: relative;
+}
+
+.solution-content-itens > p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.solution-content h2 {
+  margin-bottom: 40px;
+}
+
+.problem span {
+  font-weight: 500;
+}
+
+.problem p {
+  line-height: 1.4;
+}
+
+.problem-content h2::after {
+  content: url(/img/design-process/problem.svg);
+  position: absolute;
+  right: -34px;
+  top: -30px;
+}
+
+.solution-content h2::after {
+  content: url(/img/design-process/solution.svg);
+  position: absolute;
+  right: -34px;
+  top: -30px;
+}

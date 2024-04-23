@@ -36,12 +36,13 @@
 }
 
 .detail-v-design {
-  height: 140px;
-  width: 1px;
+  height: 1px;
+  width: 1080px;
   background-color: var(--cor-3);
   position: absolute;
-  right: -50px;
-  top: 14px;
+  left: 0px;
+  top: 20px;
+  z-index: -1;
 }
 
 .design-process-item {

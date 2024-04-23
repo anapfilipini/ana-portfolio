@@ -77,7 +77,7 @@
 }
 
 .detail-h-user {
-  width: 100vw;
+  width: calc(100vw - 20px);
   height: 2px;
   background-color: var(--cor-4);
 }

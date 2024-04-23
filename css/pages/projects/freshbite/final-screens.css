@@ -19,13 +19,13 @@
 .final-screens-phone-1 {
   position: absolute;
   top: -120px;
-  left: 0px;
+  left: 80px;
 }
 
 .final-screens-phone-2 {
   position: absolute;
   top: 280px;
-  right: 0px;
+  right: 80px;
 }
 
 .final-screens-detail-item {
@@ -48,18 +48,24 @@
   border-radius: 24px;
 }
 
-.intuitive-phone .final-screens-phone-2 {
-  position: absolute;
-  top: 360px;
-  right: 0px;
-}
-
 .intuitive-phone .final-screens-phone-3 {
   position: absolute;
-  top: 1100px;
-  left: 40px;
+  top: 580px;
+  left: 380px;
+}
+
+.intuitive-phone .final-screens-phone-2 {
+  position: absolute;
+  top: 500px;
+  left: -200px;
+}
+
+.intuitive-phone .final-screens-phone-1 {
+  position: absolute;
+  top: -120px;
+  left: 0px;
 }
 
 .intuitive-phone .final-screens-container {
-  margin-bottom: 1840px;
+  margin-bottom: 1200px;
 }

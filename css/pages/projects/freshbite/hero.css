@@ -15,3 +15,7 @@
   height: 2px;
   background-color: var(--cor-4);
 }
+
+.freshbite-page {
+  overflow-x: hidden;
+}
